@@ -1,13 +1,13 @@
 package com.kh.example.practice1.model.vo;
 
 public class Member {
-    public String memberId;
-    public String memberPwd;
-    public String memberName;
-    public int age;
-    public char gender;
-    public String phone;
-    public String email;
+    String memberId;
+    String memberPwd;
+    String memberName;
+    int age;
+    char gender;
+    String phone;
+    String email;
 
     public Member(String name, int mAge, String mPhone) {
         memberName = name;
