@@ -147,7 +147,10 @@ public class MemberMenu {
 
     public void searchId() {
         System.out.printf(">> 아이디: ");
-        String id = sc.next();
+        String id = inputId();
+        id = sc.next();
+
+
 
 
     }
