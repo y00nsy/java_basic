@@ -1,9 +1,18 @@
+
+
+
+
 public class Hello {
 
-    public static void main(String[] args) {
+    static int a;
 
-        System.out.println("안녕안녕");
+    static void mtd() {
 
-        System.out.println("안냐루");
     }
+
+    public static void main(String[] args) {
+        a = 10;
+        mtd();
+    }
+
 }

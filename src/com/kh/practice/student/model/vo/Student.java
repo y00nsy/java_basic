@@ -6,7 +6,7 @@ public class Student {
     private String subject;
     private int score;
 
-    //====================================================================생성자
+    //================생성자 영역===================//
     public Student() {
     }
 
@@ -15,11 +15,11 @@ public class Student {
         this.subject = subject;
         this.score = score;
     }
-    //====================================================================메서드
+
+    //================메서드 영역===================//
     public String inform() {
         return String.format("# 이름: %s / 과목: %s / 점수: %d", name, subject, score);
     }
-
 
 
     public String getName() {
@@ -45,6 +45,7 @@ public class Student {
     public void setScore(int score) {
         this.score = score;
     }
+
 
 
 }
